@@ -12,29 +12,32 @@ namespace GeomLib
             //y = 0;
         }
 
-        public Point2D(int coordX, int coordY)
+        public Point2D(float coordX, float coordY)
         {
             x = coordX;
             y = coordY;
         }
 
         //Stato Interno
-        private int x;
-        private int y;
+        private float x;
+        private float y;
         //public static int Status;
 
-        public int GetX()
+        public float GetX()
         {
             return x;
         }
 
-        public int GetY()
+        public float GetY()
         {
             return y;
         }
 
-        
-        
+        public override string ToString()
+        {
+            return $"({x} : {y})";
+        }
+
 
     }
 }

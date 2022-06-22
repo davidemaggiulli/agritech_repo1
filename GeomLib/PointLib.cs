@@ -8,7 +8,10 @@ namespace GeomLib
     {
         public static double GetDistance(Point2D p1, Point2D p2)
         {
-            return Math.Sqrt( Math.Pow(p1.GetX() - p2.GetX(),2) + Math.Pow(p1.GetY() - p2.GetY(),2) );
+            //double a = p1.GetX() - p2.GetX();
+            //double a2 = Math.Pow(a, 2);
+
+            return Math.Sqrt( Math.Pow(p1.GetX() - p2.GetX(),2) + Math.Pow(p1.GetY() - p2.GetY(),2)  );
         }
 
         public static Point2D GetNearestPointFromRef(Point2D p1, Point2D p2, Point2D r)
