@@ -21,7 +21,7 @@ namespace GeomLib
         //Stato Interno
         private int x;
         private int y;
-        public static int Status;
+        //public static int Status;
 
         public int GetX()
         {
