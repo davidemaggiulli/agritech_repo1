@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+
 
 namespace SolarSystem
 {
@@ -29,8 +31,9 @@ namespace SolarSystem
 
             planets = new Planet[] { terra, mercurio, plutone, saturno };
 
-            GetPlanetDetails();
+            //GetPlanetDetails();
 
+            planets = ReadPlanetsFromFile("data\\planets.txt");
 
 
             Console.WriteLine("Inserire primo pianeta");
@@ -84,7 +87,7 @@ namespace SolarSystem
         {
             foreach(Planet planet in planets)
             {
-                if (planet.Name == planetName)
+                if (planet != null && planet.Name.Equals(planetName, StringComparison.InvariantCultureIgnoreCase))
                     return planet;
             }
             //for(int i = 0; i < planets.Length; i++)
@@ -111,6 +114,41 @@ namespace SolarSystem
                 }
             }
             Console.WriteLine($"Pianeta {name} non trovato");
+        }
+
+        static Planet[] ReadPlanetsFromFile(string fileName)
+        {
+            string[] lines = File.ReadAllLines(fileName);
+            
+            Planet[] planets = new Planet[lines.Length];
+            for(int i = 0; i < lines.Length; i++)
+            {
+                string line = lines[i];
+                string[] lineParts = line.Split("|");
+                if(lineParts.Length == 4)
+                {
+                    try
+                    {
+                        String name = lineParts[0].Trim();
+                        string massString = lineParts[1].Trim();
+                        float mass = float.Parse(massString);
+
+                        string radiusString = lineParts[2].Trim();
+                        float radius = float.Parse(radiusString);
+
+                        string distanceString = lineParts[3].Trim();
+                        float distance = float.Parse(distanceString);
+                        planets[i] = new Planet(name, mass, radius, distance);
+                    }
+                    catch(Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
+                    
+                }
+            }
+
+            return planets;
         }
     }
 }

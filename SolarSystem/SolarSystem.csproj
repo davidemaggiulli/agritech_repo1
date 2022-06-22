@@ -9,4 +9,10 @@
     <ProjectReference Include="..\GeomLib\GeomLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="data\planets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
