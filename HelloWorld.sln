@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystem", "SolarSystem\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructExample", "DataStructExample\DataStructExample.csproj", "{CAF6C107-3589-4678-8873-5A7FEDCF1338}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructExample.Test", "DataStructExample.Test\DataStructExample.Test.csproj", "{9EE11A24-0B01-4F32-9EF5-7008A81CCF82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{CAF6C107-3589-4678-8873-5A7FEDCF1338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAF6C107-3589-4678-8873-5A7FEDCF1338}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAF6C107-3589-4678-8873-5A7FEDCF1338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE11A24-0B01-4F32-9EF5-7008A81CCF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE11A24-0B01-4F32-9EF5-7008A81CCF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE11A24-0B01-4F32-9EF5-7008A81CCF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE11A24-0B01-4F32-9EF5-7008A81CCF82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

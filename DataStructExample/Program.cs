@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GeomLib;
+using System;
 using System.Runtime;
 
 namespace DataStructExample
@@ -39,6 +40,22 @@ namespace DataStructExample
             }
 
             list.RemoveAt(40);
+
+            //IIntList list3 = new IntList();
+            //list.Add("Sono");
+            //list.Add("una");
+            //list.Add("lista");
+            IGenericList<string> list4 = new GenericList<string>();
+            IGenericList<Point2D> list5 = new GenericList<Point2D>();
+            IGenericList<float> list6 = new GenericList<float>();
+
+            list4.Add("Sono");
+            list4.Add("una");
+            list4.Add("lista");
+            list6.Add(12.4f);
+            list5.Add(new Point2D(0, 0));
+            list5.Add(new Point2D(10, 20));
+            list5.Add(new Point2D(30, 20));
 
             Console.WriteLine($"La lista ha {list.Count()} elementi");
             Console.ReadLine();
