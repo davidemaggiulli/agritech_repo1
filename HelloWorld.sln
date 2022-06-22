@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeomLib", "GeomLib\GeomLib.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystem", "SolarSystem\SolarSystem.csproj", "{2FB837A7-C8D1-47A6-A93C-901876328A0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructExample", "DataStructExample\DataStructExample.csproj", "{CAF6C107-3589-4678-8873-5A7FEDCF1338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{2FB837A7-C8D1-47A6-A93C-901876328A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FB837A7-C8D1-47A6-A93C-901876328A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FB837A7-C8D1-47A6-A93C-901876328A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF6C107-3589-4678-8873-5A7FEDCF1338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF6C107-3589-4678-8873-5A7FEDCF1338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF6C107-3589-4678-8873-5A7FEDCF1338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF6C107-3589-4678-8873-5A7FEDCF1338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
