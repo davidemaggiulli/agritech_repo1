@@ -3,31 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{CBAE948A-5AA7-4409-877A-3DEB235FE772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{CBAE948A-5AA7-4409-877A-3DEB235FE772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfNumbers", "SumOfNumbers\SumOfNumbers.csproj", "{5C181489-D874-4BA1-AFF5-B58959AC3F90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfNumbers", "SumOfNumbers\SumOfNumbers.csproj", "{5C181489-D874-4BA1-AFF5-B58959AC3F90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{487FC569-64E7-4FFF-96FA-53B2E39D5B70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{487FC569-64E7-4FFF-96FA-53B2E39D5B70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSummer", "NumberSummer\NumberSummer.csproj", "{51FF1F60-F2A9-4F43-9B36-CE3150DB33CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberSummer", "NumberSummer\NumberSummer.csproj", "{51FF1F60-F2A9-4F43-9B36-CE3150DB33CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverflowExample", "OverflowExample\OverflowExample.csproj", "{B5F49B4D-9F25-4DB2-8208-1210D8C7336A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverflowExample", "OverflowExample\OverflowExample.csproj", "{B5F49B4D-9F25-4DB2-8208-1210D8C7336A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fattoriale", "Fattoriale\Fattoriale.csproj", "{F5B02302-4973-4D1D-88A2-F93FB6A853E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fattoriale", "Fattoriale\Fattoriale.csproj", "{F5B02302-4973-4D1D-88A2-F93FB6A853E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExample", "ArrayExample\ArrayExample.csproj", "{BDAB2121-EE43-40F5-A1A6-8993D29059D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayExample", "ArrayExample\ArrayExample.csproj", "{BDAB2121-EE43-40F5-A1A6-8993D29059D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{6421E0C3-CFBF-481C-A87C-56A91168DD0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{6421E0C3-CFBF-481C-A87C-56A91168DD0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeomExample", "GeomExample\GeomExample.csproj", "{F24E7707-8007-4491-8A9E-025C700DA635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeomExample", "GeomExample\GeomExample.csproj", "{F24E7707-8007-4491-8A9E-025C700DA635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeomLib", "GeomLib\GeomLib.csproj", "{25EA79C9-8141-4742-B88B-4E3FF314D98E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeomLib", "GeomLib\GeomLib.csproj", "{25EA79C9-8141-4742-B88B-4E3FF314D98E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystem", "SolarSystem\SolarSystem.csproj", "{2FB837A7-C8D1-47A6-A93C-901876328A0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarSystem", "SolarSystem\SolarSystem.csproj", "{2FB837A7-C8D1-47A6-A93C-901876328A0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructExample", "DataStructExample\DataStructExample.csproj", "{CAF6C107-3589-4678-8873-5A7FEDCF1338}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructExample", "DataStructExample\DataStructExample.csproj", "{CAF6C107-3589-4678-8873-5A7FEDCF1338}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructExample.Test", "DataStructExample.Test\DataStructExample.Test.csproj", "{9EE11A24-0B01-4F32-9EF5-7008A81CCF82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructExample.Test", "DataStructExample.Test\DataStructExample.Test.csproj", "{9EE11A24-0B01-4F32-9EF5-7008A81CCF82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib", "MathLib\MathLib.csproj", "{CBC4DC61-3B09-4095-88E2-8746B8DD2448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib.Test", "MathLib.Test\MathLib.Test.csproj", "{460E3003-50F6-4526-BF54-65F1BB2B01B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{9EE11A24-0B01-4F32-9EF5-7008A81CCF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EE11A24-0B01-4F32-9EF5-7008A81CCF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EE11A24-0B01-4F32-9EF5-7008A81CCF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC4DC61-3B09-4095-88E2-8746B8DD2448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC4DC61-3B09-4095-88E2-8746B8DD2448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC4DC61-3B09-4095-88E2-8746B8DD2448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC4DC61-3B09-4095-88E2-8746B8DD2448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460E3003-50F6-4526-BF54-65F1BB2B01B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460E3003-50F6-4526-BF54-65F1BB2B01B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460E3003-50F6-4526-BF54-65F1BB2B01B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460E3003-50F6-4526-BF54-65F1BB2B01B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,8 +17,9 @@ namespace DataStructExample.Test
             list = new GenericList<string>();
 
             //Assert
-            Assert.NotNull(list);
-            Assert.Equal(0, list.Count());
+            Assert.NotNull(list);   //list != null
+            Assert.Equal(0, list.Count());   //la lista non contenta elemento
+            
         }
 
         [Fact]
