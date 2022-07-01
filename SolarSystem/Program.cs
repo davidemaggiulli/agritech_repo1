@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-
+using System.Text;
 
 namespace SolarSystem
 {
@@ -34,7 +34,7 @@ namespace SolarSystem
             //GetPlanetDetails();
 
             planets = ReadPlanetsFromFile("data\\planets.txt");
-
+            WritePlanetsOnFile();
 
             Console.WriteLine("Inserire primo pianeta");
             string pName1 = Console.ReadLine();
@@ -54,10 +54,12 @@ namespace SolarSystem
                 double gr = p1.GetGravity(p2);
                 Console.WriteLine($"Gravità: {gr}");
             }
+            string.Format("{0,1}{1,10}", 1, 2, 3, 4, 5, 6, 7, 8, 9);
 
+            Planet pp = terra + mercurio;
 
             Console.ReadLine();
-
+      
         }
 
         static void GetPlanetDetails()
@@ -81,8 +83,11 @@ namespace SolarSystem
 
         }
 
- 
 
+        static void Method(int a, string b, params int[] value)
+        {
+
+        }
         static Planet FindPlanetByName (string planetName)
         {
             foreach(Planet planet in planets)
@@ -125,7 +130,7 @@ namespace SolarSystem
             {
                 string line = lines[i];
                 string[] lineParts = line.Split("|");
-                if(lineParts.Length == 4)
+                if (lineParts.Length == 4)
                 {
                     try
                     {
@@ -140,15 +145,28 @@ namespace SolarSystem
                         float distance = float.Parse(distanceString);
                         planets[i] = new Planet(name, mass, radius, distance);
                     }
-                    catch(Exception e)
+                    catch (Exception e)
                     {
                         Console.WriteLine(e.Message);
                     }
                     
+
                 }
+                
             }
 
             return planets;
+        }
+
+        static void WritePlanetsOnFile()
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach(var p in planets)
+            {
+                sb.AppendLine($"{p.Name} | {p.Mass} | {p.Radius} | {p.DistanceFromSun}");
+            }
+            string result = sb.ToString();
+            File.WriteAllText("output.txt", result);
         }
     }
 }

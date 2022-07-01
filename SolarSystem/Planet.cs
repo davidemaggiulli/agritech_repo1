@@ -19,6 +19,10 @@ namespace SolarSystem
         public float DistanceFromSun { get; }
         public Point2D Position { get; }
 
+        public static Planet operator+ (Planet p1, Planet p2)
+        {
+            return new Planet(p1.Name + " - " + p2.Name, new Point2D(p1.Position.GetX() + p2.Position.GetX(), p1.Position.GetY() + p2.Position.GetY()));
+        }
 
         public Planet(string name, float mass, float radius, float dist)
         {
